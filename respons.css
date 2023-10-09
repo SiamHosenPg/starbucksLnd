@@ -1,0 +1,44 @@
+@media only screen and (max-width: 10000px) {
+ body{width: 1600px;margin:auto;}
+ .AlNav{ left: 0; }
+ nav{width: 1600px; margin:auto; }
+ 
+}@media only screen and (max-width: 1700px) {
+ body{width: 100%;  }
+ nav{width: 100%;  }
+}
+@media only screen and (max-width: 1150px) {
+	nav .Logo span{display:none; }
+	nav .Logo {width: 50px;  }
+	nav .Links li{ margin-left: 20px; }
+	nav .Links li a i{ display: block; color:#006000;  }
+	nav .Links li a span{ display: none;   }
+	
+	 .Content .right {width: 290px;    }
+	 .left{width: 490px;   }
+	 
+		.left h2{margin-top:50px; font-size: 24px;  }
+		.left h1{margin-top: 20px; font-size: 41px;  }
+		.left p{margin-top: 30px;   }
+	
+	
+}
+@media only screen and (max-width: 850px) {
+	
+	nav{padding: 0px 30px;}
+	nav .Search{display:none;  }
+	
+	
+	 .Content  {   flex-direction: column; justify-content: center;padding: 0px 30px; }
+	 .Content .right {width: 200px;    }
+	 .Content .right img{  margin-top:30px;  margin-left: 0px; }
+	 .left{width: 100%;   }
+	 
+		.left h2{margin-top:0px; font-size: 18px;  }
+		.left h1{margin-top: 20px; font-size: 25px;  }
+		.left p{margin-top: 30px;   }
+		.background{bottom: -600px;  right:-300px;    }
+		.SslLink{ right: 30px; top:70vh; }
+	
+	
+}
